@@ -1,8 +1,0 @@
-[{"id":"67ae2116-1ff6-5c8b-bdde-ee7d956df131","name":"Device1","gatewayName":"Gateway1","gatewayId":null,"location":"PuneMPC1","deviceProfileId":"67ae2116-1ff6-5c8b-bdde-ee7d956df133",
-    "channelData":[{"tagId":"392","value":"45","sValue":"","nValue":"","timeStamp":1508844684357},
-        {"tagId":"720","value":"65","sValue":"","nValue":"","timeStamp":1508844684357},
-        {"tagId":"12775","value":"ON","sValue":"","nValue":"","timeStamp":1508844684357}]},
-{"id":"67ae2116-1ff6-5c8b-bdde-ee7d956ff131","name":"Device2","gatewayName":"Gateway2","gatewayId":null,"location":null,"deviceProfileId":"67ae2116-1ff6-5c8b-bdde-ee7d976df133",
-    "channelData":[{"tagId":"392","value":"40","sValue":"","nValue":"","timeStamp":1508844684357},
-        {"tagId":"720","value":"60","sValue":"","nValue":"","timeStamp":1508844684357},
-        {"tagId":"12775","value":"OFF","sValue":"","nValue":"","timeStamp":1508844684357}]}]
