@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+    <script>
+function result_expression(expression, variables) {
+    //Enter your code here
+    function hasWhiteSpace(s) {
+        return s.indexOf(' ') >= 0;
+    }
+    function isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+    }
+    let exp = expression.replace(/\s+/g,'');
+    let operator = ['+', '-', '*', '/'];
+    let operand = ['0','1','2','3','4','5','6','7','8','9'];
+    for(i = 0; i <= expression.length; i++){
+        if(i === '+' || i === '-' || i === '*'|| i === '/'){
+            if(hasWhiteSpace(i+1)){
+                //return null;
+				console.log('null1')
+            }
+        }
+    }
+    if(exp.length <= 2){
+        //return null;
+		console.log('null2')
+    }
+    if(exp.length < 3){
+        if(operand.includes(exp) && operator.includes(exp) && isEmpty(variables)){
+            //return null;
+			console.log('null3');
+        }
+    }
+	    if(exp.length == 2){
+        for(i = 0; i <= exp.length; i++){
+            if(operator.includes(exp[i])){
+                if(operand.includes(exp[i])){
+                    if(isEmpty(variables)){
+					//return null;
+					console.log('null4')
+                    }
+                }
+            }
+        }
+    }
+	          if(exp.length == 1 && operand.includes(exp) && isEmpty(variables)){
+            //return exp;
+            console.log(exp);
+    }
+    
+    if(expression.length == 1 && operand.includes(expression) && isEmpty(variables)){
+            console.log(expression);
+    }
+} 
+result_expression('+1',{});
+result_expression('+ 123',{});
+result_expression('1',{});
+result_expression('+12',{});
+  
+  </script>
+</head>
+<body>
+
+</body>
+</html>
